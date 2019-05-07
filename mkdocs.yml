@@ -1,0 +1,49 @@
+﻿# Project information
+site_name: 'GTFSフィード作成マニュアル'
+site_description: 'サイトの紹介'
+site_author: 'KAWAMURA,Shun'
+site_url: 'http://shuni618.github.io/GTFS_manual/'
+pages:
+  - 0. 本マニュアルについて: index.md
+  - 1. GTFSフィードについて: 1.md
+  - 2. Google乗換案内への登録: 2.md
+  - 3. GTFSフィード実装までの手順: 3.md
+  - 4. 契約: 4.md
+  - 5. フィードの作成: 5.md
+  - 6. フィードのチェック: 6.md
+  - 7. フィードの公開: 7.md
+  - 8. フィードの管理: 8.md
+  - 9. フィードの更新: 9.md
+  - 10. トラブルシューティング: 10.md
+  - About mkDocs: aboutmkdocs.md
+
+
+# Copyright
+copyright: 'Copyright (c) Nagoya University Yasuda Endo Urata Lab. 2019'
+
+# Documentation and theme
+docs_dir: 'docs'
+theme: 
+  name: 'material'
+
+# Options
+extra:
+  palette:
+    primary: 'Light Blue'
+    accent: 'Orange'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+  i18n:
+    prev: 'Previous'
+    next: 'Next'
+  author:
+    github: 'shuni618'
+  search:
+    language: 'ja'
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: '#'
